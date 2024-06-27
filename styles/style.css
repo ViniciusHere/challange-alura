@@ -14,8 +14,8 @@ body {
 
 #logo {
     margin: 53px 0px 0px 133px;
-    width: 70px;
-    height: 71px;
+    width: 55px;
+    height: 55px;
 }
 
 textarea {
@@ -183,7 +183,7 @@ textarea::placeholder {
     #buttonBox {
         margin-bottom: 50px;
     }
-    #descriptedBox__img > svg {
+    #descriptedBox__img > img {
         display: none;
     }
     #descriptedBox__text {
