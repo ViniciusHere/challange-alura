@@ -10,6 +10,7 @@ const descriptedBox__img = document.getElementById('descriptedBox__img')
 
 descriptografButton.addEventListener('click', () => {
     let textContent = inputText.value
+    inputText.value = ''
     function verificarString(textContent) {
         if (/[A-ZÀ-ÖØ-Ý]/.test(textContent)) {
             return false;
